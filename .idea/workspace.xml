@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6532d7c-f663-4ac6-a651-627a839c6087" name="Changes" comment="VectorStack">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/AbstractList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/AbstractStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoubleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/DoubleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/IList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/IStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/StackArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VectorStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/VectorStack.java" afterDir="false" />
-    </list>
+    <list default="true" id="c6532d7c-f663-4ac6-a651-627a839c6087" name="Changes" comment="ReadFile/Converter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676860676411</updated>
       <workItem from="1676860677726" duration="1693000" />
-      <workItem from="1676932532403" duration="11843000" />
+      <workItem from="1676932532403" duration="12695000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba 1 commit">
       <created>1676863217525</created>
@@ -128,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676950400591</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ReadFile/Converter">
+      <created>1676951374086</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676951374086</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +136,7 @@
     <MESSAGE value="Double" />
     <MESSAGE value="Node" />
     <MESSAGE value="VectorStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="VectorStack" />
+    <MESSAGE value="ReadFile/Converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReadFile/Converter" />
   </component>
 </project>
