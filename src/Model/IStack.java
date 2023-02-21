@@ -1,3 +1,5 @@
+package Model;
+
 public interface IStack<T> {
     void push(T element);
     T pop();
@@ -5,4 +7,5 @@ public interface IStack<T> {
     boolean isEmpty();
     public int size();
 
+    int count();
 }

@@ -1,3 +1,5 @@
+package Model;
+
 import java.util.Vector;
 
 public class VectorStack<T> extends AbstractStack<T> {

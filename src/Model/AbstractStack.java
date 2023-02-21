@@ -1,3 +1,5 @@
+package Model;
+
 public abstract class AbstractStack<T> implements IStack<T> {
     protected int size;
     protected boolean isEmpty;

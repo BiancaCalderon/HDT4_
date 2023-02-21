@@ -1,3 +1,8 @@
+package Model;
+
+import Model.IList;
+import Model.Node;
+
 public class SinglyLinkedList<T> implements IList<T> {
 
     private int count;

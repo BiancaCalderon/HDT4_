@@ -1,3 +1,7 @@
+package Model;
+
+import Model.DoubleNode;
+
 public class DoublyLinkedList<T> implements IList<T> {
 
     private DoubleNode<T> start;

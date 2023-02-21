@@ -1,3 +1,7 @@
+package Model;
+
+import Model.AbstractStack;
+
 import java.util.ArrayList;
 
 public class StackArrayList<T> extends AbstractStack<T> {

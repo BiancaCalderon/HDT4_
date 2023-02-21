@@ -1,3 +1,5 @@
+package Model;
+
 public interface IList<T> {
 
     void InsertAtStart(T value);

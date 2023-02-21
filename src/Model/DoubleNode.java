@@ -1,3 +1,5 @@
+package Model;
+
 public class DoubleNode<T> {
     private T value;
     private DoubleNode<T> next;
