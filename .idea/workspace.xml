@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6532d7c-f663-4ac6-a651-627a839c6087" name="Changes" comment="Class interface Stack">
+    <list default="true" id="c6532d7c-f663-4ac6-a651-627a839c6087" name="Changes" comment="Class Stack de ArrayList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676860676411</updated>
       <workItem from="1676860677726" duration="1693000" />
-      <workItem from="1676932532403" duration="4360000" />
+      <workItem from="1676932532403" duration="6513000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba 1 commit">
       <created>1676863217525</created>
@@ -69,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676937365594</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Class Stack de ArrayList">
+      <created>1676941771615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676941771615</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +85,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prueba 1 commit" />
     <MESSAGE value="Class interface Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class interface Stack" />
+    <MESSAGE value="Class Stack de ArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Stack de ArrayList" />
   </component>
 </project>
