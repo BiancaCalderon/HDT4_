@@ -41,11 +41,11 @@ public class SinglyLinkedList<T> extends AbstractList<T> {
         return node.data;
     }
 
-    private static class Node<E> {
-        private E data;
-        private Node<E> next;
+    private static class Node<T> {
+        private T data;
+        private Node<T> next;
 
-        public Node(E data, Node<E> next) {
+        public Node(T data, Node<T> next) {
             this.data = data;
             this.next = next;
         }

@@ -5,12 +5,4 @@ public interface IStack<T> {
     boolean isEmpty();
     public int size();
 
-
-    public abstract class AbstractStack<T> implements IStack<T> {
-        protected int size;
-
-        public boolean empty() {
-            return size == 0;
-        }
-    }
 }

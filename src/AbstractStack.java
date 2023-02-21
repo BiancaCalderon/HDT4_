@@ -1,21 +1,21 @@
 public abstract class AbstractStack<T> implements IStack<T> {
-    protected int tamano;
+    protected int size;
     protected boolean isEmpty;
 
 
     public AbstractStack() {
-        tamano = 0;
+        size = 0;
         isEmpty = true;
             }
 
             @Override
             public boolean isEmpty() {
-                return isEmpty;
+                return size == 0;
             }
 
             @Override
             public int size() {
-                return tamano;
+                return size;
             }
 
     }
