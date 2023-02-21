@@ -11,15 +11,15 @@ public class StackArrayList<T> extends AbstractStack<T> {
     public void push(T element) {
         elementos.add(element);
         isEmpty = false;
-        tamano++;
+        size++;
     }
 
     @Override
     public T pop() {
         T element = elementos.remove(elementos.size() - 1);
-        tamano--;
+        size--;
 
-        if (tamano == 0) {
+        if (size == 0) {
             isEmpty = true;
         }
 

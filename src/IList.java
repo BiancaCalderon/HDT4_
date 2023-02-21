@@ -1,4 +1,5 @@
 public interface IList<T> {
+
     void InsertAtStart(T value);
 
     void InsertAtEnd(T value);
@@ -17,6 +18,5 @@ public interface IList<T> {
 
     int Count();
 
-
-
+    int size();
 }
