@@ -2,53 +2,43 @@ package Model;
 
 import java.util.Vector;
 
-public class VectorStack<T> extends AbstractStack<T> {
-    private Vector<T> element;
+public class VectorStack<T> implements IStack<T> {
+    private Vector<T> vector;
 
     public VectorStack() {
-        element = new Vector<T>();
-        size = 0;
-    }
-
-    public void apilar(T elemento) {
-        element.add(elemento);
-        size++;
-    }
-
-    public T desapilar() {
-        if (size == 0) {
-            throw new RuntimeException("Pila vacía");
-        }
-        T elemento = element.remove(size-1);
-        size--;
-        return elemento;
-    }
-
-    public T cima() {
-        if (size == 0) {
-            throw new RuntimeException("Pila vacía");
-        }
-        return element.get(size-1);
+        vector = new Vector<>();
     }
 
     @Override
     public void push(T element) {
-
-    }
-
-    @Override
-    public T pop() {
-        return null;
+        vector.add(element);
     }
 
     @Override
     public T peek() {
-        return null;
+        if (vector.isEmpty()) {
+            return null;
+        }
+        return vector.lastElement();
+    }
+
+    @Override
+    public T pull() {
+        if (vector.isEmpty()) {
+            return null;
+        }
+        T element = vector.lastElement();
+        vector.remove(vector.size() - 1);
+        return element;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return vector.isEmpty();
     }
 
     @Override
     public int count() {
-             return count();
+        return vector.size();
     }
-
-    }
+}

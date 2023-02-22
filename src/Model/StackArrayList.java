@@ -4,7 +4,7 @@ import Model.AbstractStack;
 
 import java.util.ArrayList;
 
-public class StackArrayList<T> extends AbstractStack<T> {
+public class StackArrayList<T> implements IStack<T> {
     private ArrayList<T> elementos;
 
     public StackArrayList() {
@@ -12,31 +12,27 @@ public class StackArrayList<T> extends AbstractStack<T> {
     }
 
     @Override
-    public void push(T element) {
-        elementos.add(element);
-        isEmpty = false;
-        size++;
+    public int count() {
+        return elementos.size();
     }
 
     @Override
-    public T pop() {
-        T element = elementos.remove(elementos.size() - 1);
-        size--;
+    public boolean isEmpty() {
+        return elementos.isEmpty();
+    }
 
-        if (size == 0) {
-            isEmpty = true;
-        }
+    @Override
+    public void push(T value) {
+        elementos.add(0, value);
+    }
 
-        return element;
+    @Override
+    public T pull() {
+        return elementos.remove(0);
     }
 
     @Override
     public T peek() {
-        return elementos.get(elementos.size() - 1);
-    }
-
-    @Override
-    public int count() {
-        return 0;
+        return elementos.get(0);
     }
 }
