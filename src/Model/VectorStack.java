@@ -2,7 +2,7 @@ package Model;
 
 import java.util.Vector;
 
-public class VectorStack<T> implements IStack<T> {
+public class VectorStack<T> extends AbstractStack<T> {
     private Vector<T> vector;
 
     public VectorStack() {
@@ -20,6 +20,11 @@ public class VectorStack<T> implements IStack<T> {
             return null;
         }
         return vector.lastElement();
+    }
+
+    @Override
+    public T pop() {
+        return null;
     }
 
     @Override

@@ -4,7 +4,7 @@ import Model.AbstractStack;
 
 import java.util.ArrayList;
 
-public class StackArrayList<T> implements IStack<T> {
+public class StackArrayList<T> extends AbstractStack<T> {
     private ArrayList<T> elementos;
 
     public StackArrayList() {
@@ -34,5 +34,10 @@ public class StackArrayList<T> implements IStack<T> {
     @Override
     public T peek() {
         return elementos.get(0);
+    }
+
+    @Override
+    public T pop() {
+        return null;
     }
 }
