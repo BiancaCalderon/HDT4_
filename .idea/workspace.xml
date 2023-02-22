@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6532d7c-f663-4ac6-a651-627a839c6087" name="Changes" comment="Implementing Factory and classes">
-      <change afterPath="$PROJECT_DIR$/src/Controller/ReadFromFile.java" afterDir="false" />
+    <list default="true" id="c6532d7c-f663-4ac6-a651-627a839c6087" name="Changes" comment="Cambio a clases stack vector/arraylist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/IStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/IStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/StackArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/StackArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/VectorStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/VectorStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ReadFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ReadFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <workItem from="1676860677726" duration="1693000" />
       <workItem from="1676932532403" duration="12695000" />
       <workItem from="1676991240915" duration="1505000" />
-      <workItem from="1677021422021" duration="7372000" />
+      <workItem from="1677021422021" duration="10139000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba 1 commit">
       <created>1676863217525</created>
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677026618067</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Cambio a clases stack vector/arraylist">
+      <created>1677029094585</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677029094585</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +170,7 @@
     <MESSAGE value="ReadFile/Converter" />
     <MESSAGE value="Postfix clase/interface" />
     <MESSAGE value="Implementing Factory and classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Factory and classes" />
+    <MESSAGE value="Cambio a clases stack vector/arraylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio a clases stack vector/arraylist" />
   </component>
 </project>

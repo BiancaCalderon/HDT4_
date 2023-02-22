@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;  // Import this class to handle errors
 import java.util.Scanner; // Import the Scanner class to read text files
 
 public class ReadFromFile {
-    public static void main(String[] args) {
+    public static String read() {
         System.out.println("Ingrese la ruta del archivo ej C:\\ejemplos\\example1.txt");
         Scanner in = new Scanner(System.in);
         String fpath = in.nextLine();
@@ -22,5 +22,7 @@ public class ReadFromFile {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
+
+        return fpath;
     }
-}
+    }
