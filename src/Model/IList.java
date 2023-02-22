@@ -21,4 +21,6 @@ public interface IList<T> {
     int Count();
 
     int size();
+
+    int longitud();
 }
