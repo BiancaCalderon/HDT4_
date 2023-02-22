@@ -34,4 +34,9 @@ public class StackArrayList<T> extends AbstractStack<T> {
     public T peek() {
         return elementos.get(elementos.size() - 1);
     }
+
+    @Override
+    public int count() {
+        return 0;
+    }
 }

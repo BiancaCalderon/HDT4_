@@ -45,4 +45,10 @@ public class VectorStack<T> extends AbstractStack<T> {
     public T peek() {
         return null;
     }
-}
+
+    @Override
+    public int count() {
+             return count();
+    }
+
+    }
